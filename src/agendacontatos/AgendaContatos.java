@@ -33,4 +33,11 @@ public class AgendaContatos {
         return null;
     }
 
+    public static void main(String[] args) {
+        AgendaContatos agendaContatos = new AgendaContatos();
+agendaContatos.adicionarContato("julio", 1194231203);
+        agendaContatos.removerContato("julio");
+        agendaContatos.exibirContato();
+    }
+
 }
